@@ -1,0 +1,17 @@
+<template>
+  <div class="home">
+    <Header></Header>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import Header from '../components/HeaderComponent.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    Header
+  }
+}
+</script>
